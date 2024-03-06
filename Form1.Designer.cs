@@ -39,13 +39,12 @@
             this.button8 = new System.Windows.Forms.Button();
             this.la1 = new System.Windows.Forms.Label();
             this.la2 = new System.Windows.Forms.Label();
-            this.la3 = new System.Windows.Forms.Label();
             this.la4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.labelBest = new System.Windows.Forms.Label();
             this.labelWorst = new System.Windows.Forms.Label();
-            this.la31 = new System.Windows.Forms.Label();
+            this.la3 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -65,7 +64,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(36, 248);
+            this.textBox6.Location = new System.Drawing.Point(36, 261);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 0;
@@ -90,53 +89,53 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(36, 129);
+            this.label10.Location = new System.Drawing.Point(33, 114);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(33, 13);
+            this.label10.Size = new System.Drawing.Size(155, 26);
             this.label10.TabIndex = 4;
-            this.label10.Text = "макс";
+            this.label10.Text = "максимально критеріальних \r\nоцінок для кожного критерію";
             // 
             // labe2
             // 
             this.labe2.AutoSize = true;
             this.labe2.Location = new System.Drawing.Point(36, 172);
             this.labe2.Name = "labe2";
-            this.labe2.Size = new System.Drawing.Size(37, 13);
+            this.labe2.Size = new System.Drawing.Size(40, 13);
             this.labe2.TabIndex = 6;
-            this.labe2.Text = "ввели";
+            this.labe2.Text = "ввели:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(39, 229);
+            this.label12.Location = new System.Drawing.Point(39, 242);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(27, 13);
+            this.label12.Size = new System.Drawing.Size(106, 13);
             this.label12.TabIndex = 7;
-            this.label12.Text = "наш";
+            this.label12.Text = "наша альтернатива";
             // 
             // labe3
             // 
             this.labe3.AutoSize = true;
-            this.labe3.Location = new System.Drawing.Point(36, 275);
+            this.labe3.Location = new System.Drawing.Point(36, 288);
             this.labe3.Name = "labe3";
-            this.labe3.Size = new System.Drawing.Size(37, 13);
+            this.labe3.Size = new System.Drawing.Size(40, 13);
             this.labe3.TabIndex = 8;
-            this.labe3.Text = "ввели";
+            this.labe3.Text = "ввели:";
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(300, 104);
+            this.button8.Location = new System.Drawing.Point(322, 96);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 2;
-            this.button8.Text = "button6";
+            this.button8.Text = "Обчислити";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // la1
             // 
             this.la1.AutoSize = true;
-            this.la1.Location = new System.Drawing.Point(297, 145);
+            this.la1.Location = new System.Drawing.Point(329, 213);
             this.la1.Name = "la1";
             this.la1.Size = new System.Drawing.Size(33, 13);
             this.la1.TabIndex = 10;
@@ -145,29 +144,20 @@
             // la2
             // 
             this.la2.AutoSize = true;
-            this.la2.Location = new System.Drawing.Point(300, 186);
+            this.la2.Location = new System.Drawing.Point(329, 184);
             this.la2.Name = "la2";
-            this.la2.Size = new System.Drawing.Size(35, 13);
+            this.la2.Size = new System.Drawing.Size(39, 13);
             this.la2.TabIndex = 11;
-            this.la2.Text = "краші";
-            // 
-            // la3
-            // 
-            this.la3.AutoSize = true;
-            this.la3.Location = new System.Drawing.Point(297, 229);
-            this.la3.Name = "la3";
-            this.la3.Size = new System.Drawing.Size(42, 13);
-            this.la3.TabIndex = 12;
-            this.la3.Text = "всього";
+            this.la2.Text = "кращі:";
             // 
             // la4
             // 
             this.la4.AutoSize = true;
-            this.la4.Location = new System.Drawing.Point(297, 290);
+            this.la4.Location = new System.Drawing.Point(329, 242);
             this.la4.Name = "la4";
-            this.la4.Size = new System.Drawing.Size(65, 13);
+            this.la4.Size = new System.Drawing.Size(68, 13);
             this.la4.TabIndex = 13;
-            this.la4.Text = "непорівняні";
+            this.la4.Text = "непорівняні:";
             // 
             // textBox4
             // 
@@ -188,29 +178,29 @@
             // labelBest
             // 
             this.labelBest.AutoSize = true;
-            this.labelBest.Location = new System.Drawing.Point(33, 402);
+            this.labelBest.Location = new System.Drawing.Point(39, 382);
             this.labelBest.Name = "labelBest";
-            this.labelBest.Size = new System.Drawing.Size(50, 13);
+            this.labelBest.Size = new System.Drawing.Size(116, 13);
             this.labelBest.TabIndex = 14;
-            this.labelBest.Text = "labelBest";
+            this.labelBest.Text = "краща альтернатива:";
             // 
             // labelWorst
             // 
             this.labelWorst.AutoSize = true;
-            this.labelWorst.Location = new System.Drawing.Point(33, 445);
+            this.labelWorst.Location = new System.Drawing.Point(39, 425);
             this.labelWorst.Name = "labelWorst";
-            this.labelWorst.Size = new System.Drawing.Size(57, 13);
+            this.labelWorst.Size = new System.Drawing.Size(110, 13);
             this.labelWorst.TabIndex = 15;
-            this.labelWorst.Text = "labelWorst";
+            this.labelWorst.Text = "гірша альтернатива:";
             // 
-            // la31
+            // la3
             // 
-            this.la31.AutoSize = true;
-            this.la31.Location = new System.Drawing.Point(300, 255);
-            this.la31.Name = "la31";
-            this.la31.Size = new System.Drawing.Size(106, 13);
-            this.la31.TabIndex = 12;
-            this.la31.Text = "всього гіпотетично:";
+            this.la3.AutoSize = true;
+            this.la3.Location = new System.Drawing.Point(329, 152);
+            this.la3.Name = "la3";
+            this.la3.Size = new System.Drawing.Size(45, 13);
+            this.la3.TabIndex = 12;
+            this.la3.Text = "всього:";
             // 
             // tabControl1
             // 
@@ -224,7 +214,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.la31);
+            this.tabPage1.Controls.Add(this.la3);
             this.tabPage1.Controls.Add(this.labelWorst);
             this.tabPage1.Controls.Add(this.textBox4);
             this.tabPage1.Controls.Add(this.labelBest);
@@ -232,7 +222,6 @@
             this.tabPage1.Controls.Add(this.la4);
             this.tabPage1.Controls.Add(this.textBox6);
             this.tabPage1.Controls.Add(this.button8);
-            this.tabPage1.Controls.Add(this.la3);
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.la2);
             this.tabPage1.Controls.Add(this.label10);
@@ -315,13 +304,12 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label la1;
         private System.Windows.Forms.Label la2;
-        private System.Windows.Forms.Label la3;
         private System.Windows.Forms.Label la4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label labelBest;
         private System.Windows.Forms.Label labelWorst;
-        private System.Windows.Forms.Label la31;
+        private System.Windows.Forms.Label la3;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
