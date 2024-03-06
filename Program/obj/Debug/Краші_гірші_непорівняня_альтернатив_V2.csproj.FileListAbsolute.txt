@@ -31,3 +31,14 @@ C:\Users\bogda\Desktop\обучение в ХНУРЭ\5ТП\лаби\лаб ро
 C:\Users\bogda\Desktop\обучение в ХНУРЭ\5ТП\лаби\лаб роб 1\Краші_гірші_непорівняня_альтернатив_V2(рефактор версія)\lab-rop-1-TP\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.csproj.CoreCompileInputs.cache
 C:\Users\bogda\Desktop\обучение в ХНУРЭ\5ТП\лаби\лаб роб 1\Краші_гірші_непорівняня_альтернатив_V2(рефактор версія)\lab-rop-1-TP\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.exe
 C:\Users\bogda\Desktop\обучение в ХНУРЭ\5ТП\лаби\лаб роб 1\Краші_гірші_непорівняня_альтернатив_V2(рефактор версія)\lab-rop-1-TP\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.pdb
+D:\Git Hub Projects\lab-rop-1-TP\Program\bin\Debug\Краші_гірші_непорівняня_альтернатив_V2.exe.config
+D:\Git Hub Projects\lab-rop-1-TP\Program\bin\Debug\Краші_гірші_непорівняня_альтернатив_V2.exe
+D:\Git Hub Projects\lab-rop-1-TP\Program\bin\Debug\Краші_гірші_непорівняня_альтернатив_V2.pdb
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.csproj.AssemblyReference.cache
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.csproj.SuggestedBindingRedirects.cache
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.Form1.resources
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.Properties.Resources.resources
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.csproj.GenerateResource.cache
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.csproj.CoreCompileInputs.cache
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.exe
+D:\Git Hub Projects\lab-rop-1-TP\Program\obj\Debug\Краші_гірші_непорівняня_альтернатив_V2.pdb

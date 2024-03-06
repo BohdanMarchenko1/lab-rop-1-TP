@@ -22,3 +22,27 @@ C:\Users\bogda\Desktop\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCo
 C:\Users\bogda\Desktop\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 C:\Users\bogda\Desktop\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\bogda\Desktop\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Краші_гірші_непорівняня_альтернатив_V2.exe
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Краші_гірші_непорівняня_альтернатив_V2.pdb
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Краші_гірші_непорівняня_альтернатив_V2.exe.config
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.AssemblyReference.cache
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\Git Hub Projects\lab-rop-1-TP\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

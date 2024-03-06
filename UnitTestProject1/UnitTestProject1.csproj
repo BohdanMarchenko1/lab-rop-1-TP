@@ -57,7 +57,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Краші_гірші_непорівняня_альтернатив_V2%28рефактор версія%29\Краші_гірші_непорівняня_альтернатив_V2.csproj">
+    <ProjectReference Include="..\Program\Краші_гірші_непорівняня_альтернатив_V2.csproj">
       <Project>{dfa382e4-16e6-4ed4-94d4-b88a83184a8b}</Project>
       <Name>Краші_гірші_непорівняня_альтернатив_V2</Name>
     </ProjectReference>
