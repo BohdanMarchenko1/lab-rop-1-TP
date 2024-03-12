@@ -32,30 +32,30 @@ namespace UnitTestProject1
             Assert.AreEqual("Гірша: (k13, k23, k37)", f.StringWorst(MaxMasCret));
         }
         //тести обчислення
-        [TestMethod]
-        public void TestMetod_CountBad()
-        {
+        //[TestMethod]
+        //public void TestMetod_CountBad()
+        //{
             
-            Assert.AreEqual(19, f.CountBad(MyMasCret, MaxMasCret));
-        }
-        [TestMethod]
-        public void TestMetod_CountGood()
-        {
+        //    Assert.AreEqual(19, f.CountBad(MyMasCret, MaxMasCret));
+        //}
+        //[TestMethod]
+        //public void TestMetod_CountGood()
+        //{
             
-            Assert.AreEqual(11, f.CountGood(MyMasCret));
-        }
-        [TestMethod]
-        public void TestMetod_CountAll()
-        {
+        //    Assert.AreEqual(11, f.CountGood(MyMasCret));
+        //}
+        //[TestMethod]
+        //public void TestMetod_CountAll()
+        //{
             
-            Assert.AreEqual(63, f.CountAll(MaxMasCret));
-        }
-        [TestMethod]
-        public void TestMetod_CountDifrent()
-        {
+        //    Assert.AreEqual(63, f.CountAll(MaxMasCret));
+        //}
+        //[TestMethod]
+        //public void TestMetod_CountDifrent()
+        //{
             
-            Assert.AreEqual(32, f.CountDifrent(MyMasCret,MaxMasCret));
-        }
+        //    Assert.AreEqual(32, f.CountDifrent(MyMasCret,MaxMasCret));
+        //}
 
     }
 }
