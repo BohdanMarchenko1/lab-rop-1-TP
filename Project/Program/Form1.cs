@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Краші_гірші_непорівняня_альтернатив_V2
 {
@@ -56,72 +57,24 @@ namespace Краші_гірші_непорівняня_альтернатив_V2
             str="Гірша: ("+str+")";
             return str;
         }
-
-        //обрахунок
-        public int CountGood(int[] MyMasCret) 
+        private void button8_Click_1(object sender, EventArgs e)
         {
-            int bad = 1;
-            for (int i = 0; i < MyMasCret.Length; ++i)
-            {
-                bad*= MyMasCret[i];
-            }
-            bad -= 1;
-            return bad;
-        }
-        public int CountBad(int[] MyMasCret, int[] MaxMasCret) 
-        {
-            int good = 1;   
-            for (int i = 0; i < MaxMasCret.Length; ++i)
-            {
-                good*=MaxMasCret[i]-MyMasCret[i]+1;
-            }
-            good-=1;
-            return good;
-        }
-        public int CountAll(int[] MaxMasCret)
-        {
-            int all = 1;
-            for (int i = 0; i < MaxMasCret.Length; ++i)
-            {
-                all *=MaxMasCret[i];
-            }
-            return all;
-        }
-        public int CountDifrent(int[] MyMasCret, int[] MaxMasCret) 
-        { 
-            return CountAll(MaxMasCret)-CountGood(MyMasCret)-CountBad(MyMasCret, MaxMasCret)-1; 
-        }
-
-
-
-
-        private void button8_Click(object sender, EventArgs e)//розрахунок
-
-        {
-
-
-            //ввод даних
-            int NMasCret = int.Parse(textBox4.Text);
-            int[] MaxMasCret = StrArrIntoIntArr(textBox5.Text.Split(' '));
-            int[] MyMasCret = StrArrIntoIntArr(textBox6.Text.Split(' '));
+            Calculation MyCalc = new Calculation(new StrInputData(textBox4.Text, textBox5.Text, textBox6.Text));
 
             //вивід введених даних
-            labe1.Text="ввели: "+NMasCret;
+            labe1.Text="ввели: "+textBox4.Text;
             labe2.Text="ввели: "+textBox5.Text;
             labe3.Text="ввели: "+textBox6.Text;
 
             //вивід кращої та гіршої альтернативи
-            labelBest.Text=StringBest(NMasCret);
-            labelWorst.Text=StringWorst(MaxMasCret);
-
+            labelBest.Text=StringBest(MyCalc.NMasCret);
+            labelWorst.Text=StringWorst(MyCalc.MaxMasCret);
 
             //вивід скільки альтернатив кращіх/гірших/непорівняних/всього
-            la1.Text="краші: "+CountGood(MyMasCret);
-            la2.Text="гірші: "+CountBad(MyMasCret, MaxMasCret);
-            la3.Text="всього: "+CountAll(MaxMasCret);
-            la4.Text="непорівняні: "+CountDifrent(MyMasCret, MaxMasCret);
-
-
+            la1.Text="краші: "+MyCalc.CountGood();
+            la2.Text="гірші: "+MyCalc.CountBad();
+            la3.Text="всього: "+MyCalc.CountAll();
+            la4.Text="непорівняні: "+MyCalc.CountDifrent();
         }
     }
 }
